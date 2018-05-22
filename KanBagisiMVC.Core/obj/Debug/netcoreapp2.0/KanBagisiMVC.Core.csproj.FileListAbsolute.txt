@@ -1,0 +1,9 @@
+C:\Users\unver\source\repos\KanBagisiMVC\KanBagisiMVC.Core\bin\Debug\netcoreapp2.0\KanBagisiMVC.Core.deps.json
+C:\Users\unver\source\repos\KanBagisiMVC\KanBagisiMVC.Core\bin\Debug\netcoreapp2.0\KanBagisiMVC.Core.dll
+C:\Users\unver\source\repos\KanBagisiMVC\KanBagisiMVC.Core\obj\Debug\netcoreapp2.0\KanBagisiMVC.Core.csprojResolveAssemblyReference.cache
+C:\Users\unver\source\repos\KanBagisiMVC\KanBagisiMVC.Core\obj\Debug\netcoreapp2.0\KanBagisiMVC.Core.csproj.CoreCompileInputs.cache
+C:\Users\unver\source\repos\KanBagisiMVC\KanBagisiMVC.Core\obj\Debug\netcoreapp2.0\KanBagisiMVC.Core.AssemblyInfoInputs.cache
+C:\Users\unver\source\repos\KanBagisiMVC\KanBagisiMVC.Core\obj\Debug\netcoreapp2.0\KanBagisiMVC.Core.AssemblyInfo.cs
+C:\Users\unver\source\repos\KanBagisiMVC\KanBagisiMVC.Core\bin\Debug\netcoreapp2.0\KanBagisiMVC.Core.pdb
+C:\Users\unver\source\repos\KanBagisiMVC\KanBagisiMVC.Core\obj\Debug\netcoreapp2.0\KanBagisiMVC.Core.dll
+C:\Users\unver\source\repos\KanBagisiMVC\KanBagisiMVC.Core\obj\Debug\netcoreapp2.0\KanBagisiMVC.Core.pdb

@@ -1,0 +1,104 @@
+﻿@using System.ComponentModel.DataAnnotations
+@model KanBagisiMVC.Kizilay.Entities.Concrete.Bagisci
+
+@{
+    ViewData["Title"] = "HayatKurtar";
+    Layout = "~/Views/_Layout.cshtml";
+}
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link href="~/node_modules/bootstrap/dist/css/hayatKurtarCss.css" rel="stylesheet" />
+}
+
+<div class="containter">
+    <div class="signup col-md-12 col-xs-12 text-center">
+        @using (Html.BeginForm(Html.BeginForm("HayatKurtar", "Bagisci", FormMethod.Post, new { @id = "signfrm" })))
+        {
+
+            <h3 class="sign-h text-danger"><span id="sign-icon"><i class="fa fa-sign-in text-danger"></i></span>Hayat Kurtar!</h3>
+            <div class="form-group">
+
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.TcNo, new { htmlAttributes = new { @class = "form-control", @id = "tcno", @placeholder = "Tc No", @name = "tcno" } })
+                    @Html.ValidationMessageFor(model => model.TcNo, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Ad, new { htmlAttributes = new { @class = "form-control", @id = "sign-frm-input", @placeholder = "Ad" } })
+                    @Html.ValidationMessageFor(model => model.Ad, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Soyad, new { htmlAttributes = new { @class = "form-control", @id = "sign-frm-input", @placeholder = "Soyad" } })
+                    @Html.ValidationMessageFor(model => model.Soyad, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Eposta, new { htmlAttributes = new { @class = "form-control tcno", @id = "sign-frm-input", @placeholder = "E-Posta" } })
+                    @Html.ValidationMessageFor(model => model.Eposta, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Telefon, new { htmlAttributes = new { @class = "form-control", @id = "sign-frm-input", @placeholder = "Telefon" } })
+                    @Html.ValidationMessageFor(model => model.Telefon, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Sehir, new { htmlAttributes = new { @class = "form-control", @id = "sign-frm-input", @placeholder = "Şehir" } })
+                    @Html.ValidationMessageFor(model => model.Sehir, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+
+
+
+
+            <div class="form-group">
+
+                <div class="col-md-10">
+                    @Html.DropDownListFor(model => model.KanGrubu, new List<SelectListItem>
+                            {
+                                new SelectListItem{Text="A RH -",Value ="A RH -",Selected = true},
+                                new SelectListItem{Text="A RH +",Value ="A RH +"},
+                                new SelectListItem{Text="B RH +",Value ="B RH +"},
+                                new SelectListItem{Text="B RH -",Value ="B RH -"},
+                                new SelectListItem{Text="AB RH +",Value ="AB RH +"},
+                                new SelectListItem{Text="AB RH -",Value ="AB RH -"},
+                                new SelectListItem{Text="0 RH +",Value ="0 RH +"},
+                                new SelectListItem{Text="0 RH +",Value ="0 RH -"}
+                            }, new { @id = "sign-frm-input", @class = "form-control", @name = "kanGrubu" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Kaydet" class="btn btn-default" id="sign-frm-input-btn" />
+                </div>
+            </div>
+
+
+
+        }
+    </div>
+</div>
+<div>
+    @Html.ActionLink("Bağışçı listesini görmek için tıklayın.", "BagisciBilgileri")
+</div>
+<script src="~/node_modules/jquery/dist/jquery.min.js"></script>
+<script src="~/node_modules/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="~/node_modules/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"></script>

@@ -1,0 +1,46 @@
+﻿@model KanBagisiMVC.Kizilay.MvcWebUI.Models.BagisciListViewModel
+    @{
+        Layout = "~/Views/_Layout.cshtml";
+    }
+
+<div class="container" style="margin-top: 70px;">
+    <ol class="breadcrumb" style="margin-top:70px ">
+        <li class="breadcrumb-item">
+            <a href="Index" class="text-danger">Anasayfa</a>
+        </li>
+        <li class="breadcrumb-item active">Bağışçı Bilgileri</li>
+    </ol>
+
+    <h3>Kan bağışı yapabilecek kişilerin bilgileri aşağıda mevcuttur.</h3>
+    <h3>Tarihe göre sıralanmıştır.</h3>
+    <table class="table table-fixed">
+        <thead>
+        <tr>
+            <th scope="col">Ad</th>
+            <th scope="col">Soyad</th>
+            <th scope="col">Eposta</th>
+            <th scope="col">Telefon</th>
+            <th scope="col">Kan Grubu</th>
+            <th scope="col">Sehir</th>
+            <th scope="col">Tarih</th>
+        </tr>
+        </thead>
+        @foreach (var item in Model.Bagiscis)
+        {
+            <tr>
+                <td scope="col">@item.Ad</td>
+                <td scope="col">@item.Soyad</td>
+                <td scope="col">@item.Eposta</td>
+                <td scope="col">@item.Telefon</td>
+                <td scope="col">@item.KanGrubu</td>
+                <td scope="col">@item.Sehir</td>
+                <td scope="col">@item.Tarih</td>
+            </tr>
+        }
+    </table>
+
+
+
+
+
+</div>

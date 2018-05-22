@@ -1,0 +1,15 @@
+C:\Users\unver\source\repos\KanBagisiMVC\KanBagisiMVC.Kizilay.Business\bin\Debug\netcoreapp2.0\KanBagisiMVC.Kizilay.Business.deps.json
+C:\Users\unver\source\repos\KanBagisiMVC\KanBagisiMVC.Kizilay.Business\bin\Debug\netcoreapp2.0\KanBagisiMVC.Kizilay.Business.dll
+C:\Users\unver\source\repos\KanBagisiMVC\KanBagisiMVC.Kizilay.Business\obj\Debug\netcoreapp2.0\KanBagisiMVC.Kizilay.Business.csproj.CoreCompileInputs.cache
+C:\Users\unver\source\repos\KanBagisiMVC\KanBagisiMVC.Kizilay.Business\obj\Debug\netcoreapp2.0\KanBagisiMVC.Kizilay.Business.AssemblyInfoInputs.cache
+C:\Users\unver\source\repos\KanBagisiMVC\KanBagisiMVC.Kizilay.Business\obj\Debug\netcoreapp2.0\KanBagisiMVC.Kizilay.Business.AssemblyInfo.cs
+C:\Users\unver\source\repos\KanBagisiMVC\KanBagisiMVC.Kizilay.Business\obj\Debug\netcoreapp2.0\KanBagisiMVC.Kizilay.Business.csprojResolveAssemblyReference.cache
+C:\Users\unver\source\repos\KanBagisiMVC\KanBagisiMVC.Kizilay.Business\bin\Debug\netcoreapp2.0\KanBagisiMVC.Kizilay.Business.pdb
+C:\Users\unver\source\repos\KanBagisiMVC\KanBagisiMVC.Kizilay.Business\bin\Debug\netcoreapp2.0\KanBagisiMVC.Core.dll
+C:\Users\unver\source\repos\KanBagisiMVC\KanBagisiMVC.Kizilay.Business\bin\Debug\netcoreapp2.0\KanBagisiMVC.Kizilay.DataAccess.dll
+C:\Users\unver\source\repos\KanBagisiMVC\KanBagisiMVC.Kizilay.Business\bin\Debug\netcoreapp2.0\KanBagisiMVC.Kizilay.Entities.dll
+C:\Users\unver\source\repos\KanBagisiMVC\KanBagisiMVC.Kizilay.Business\bin\Debug\netcoreapp2.0\KanBagisiMVC.Core.pdb
+C:\Users\unver\source\repos\KanBagisiMVC\KanBagisiMVC.Kizilay.Business\bin\Debug\netcoreapp2.0\KanBagisiMVC.Kizilay.DataAccess.pdb
+C:\Users\unver\source\repos\KanBagisiMVC\KanBagisiMVC.Kizilay.Business\bin\Debug\netcoreapp2.0\KanBagisiMVC.Kizilay.Entities.pdb
+C:\Users\unver\source\repos\KanBagisiMVC\KanBagisiMVC.Kizilay.Business\obj\Debug\netcoreapp2.0\KanBagisiMVC.Kizilay.Business.dll
+C:\Users\unver\source\repos\KanBagisiMVC\KanBagisiMVC.Kizilay.Business\obj\Debug\netcoreapp2.0\KanBagisiMVC.Kizilay.Business.pdb

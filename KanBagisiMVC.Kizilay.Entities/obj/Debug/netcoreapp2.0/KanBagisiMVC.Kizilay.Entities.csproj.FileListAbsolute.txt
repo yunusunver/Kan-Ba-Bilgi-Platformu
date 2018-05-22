@@ -1,0 +1,11 @@
+C:\Users\unver\source\repos\KanBagisiMVC\KanBagisiMVC.Kizilay.Entities\bin\Debug\netcoreapp2.0\KanBagisiMVC.Core.dll
+C:\Users\unver\source\repos\KanBagisiMVC\KanBagisiMVC.Kizilay.Entities\obj\Debug\netcoreapp2.0\KanBagisiMVC.Kizilay.Entities.csprojResolveAssemblyReference.cache
+C:\Users\unver\source\repos\KanBagisiMVC\KanBagisiMVC.Kizilay.Entities\obj\Debug\netcoreapp2.0\KanBagisiMVC.Kizilay.Entities.csproj.CoreCompileInputs.cache
+C:\Users\unver\source\repos\KanBagisiMVC\KanBagisiMVC.Kizilay.Entities\obj\Debug\netcoreapp2.0\KanBagisiMVC.Kizilay.Entities.AssemblyInfoInputs.cache
+C:\Users\unver\source\repos\KanBagisiMVC\KanBagisiMVC.Kizilay.Entities\obj\Debug\netcoreapp2.0\KanBagisiMVC.Kizilay.Entities.AssemblyInfo.cs
+C:\Users\unver\source\repos\KanBagisiMVC\KanBagisiMVC.Kizilay.Entities\bin\Debug\netcoreapp2.0\KanBagisiMVC.Kizilay.Entities.deps.json
+C:\Users\unver\source\repos\KanBagisiMVC\KanBagisiMVC.Kizilay.Entities\bin\Debug\netcoreapp2.0\KanBagisiMVC.Kizilay.Entities.dll
+C:\Users\unver\source\repos\KanBagisiMVC\KanBagisiMVC.Kizilay.Entities\bin\Debug\netcoreapp2.0\KanBagisiMVC.Kizilay.Entities.pdb
+C:\Users\unver\source\repos\KanBagisiMVC\KanBagisiMVC.Kizilay.Entities\bin\Debug\netcoreapp2.0\KanBagisiMVC.Core.pdb
+C:\Users\unver\source\repos\KanBagisiMVC\KanBagisiMVC.Kizilay.Entities\obj\Debug\netcoreapp2.0\KanBagisiMVC.Kizilay.Entities.dll
+C:\Users\unver\source\repos\KanBagisiMVC\KanBagisiMVC.Kizilay.Entities\obj\Debug\netcoreapp2.0\KanBagisiMVC.Kizilay.Entities.pdb

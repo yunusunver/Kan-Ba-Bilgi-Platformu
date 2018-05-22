@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Kan Bağışla!</title>
+    <link rel="shortcut icon" type="image/png" href="~/img/heart.png" />
+    <!-- Bootstrap core CSS -->
+
+    <link href="~/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    
+    <link href="~/node_modules/bootstrap/dist/css/full-slider.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-danger" href="/Bagisci/Index">Kan Bağışı Bilgi Platformu</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="/Bagisci/HayatKurtar"><small>Hayat Kurtar</small></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="/Hasta/AnonsGec"><small>Anons geç</small></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-danger" href="/Bagisci/Index">
+                            Anasayfa
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="/Bagisci/About">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="/Hasta/KanIhtiyaci">Kan İhtiyacı</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="/Bagisci/BagisciBilgileri">Bağışçı Bilgileri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="/Bagisci/Contact">İletişim</a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    @RenderBody()
+    <!-- Page Content -->
+   
+    <!-- Footer -->
+    <footer class="py-5 bg-danger">
+        <div class="container">
+            <p class="m-0 text-center text-white">Kan Bağışı Bilgi Platformu</p>
+        </div>
+        <!-- /.container -->
+    </footer>
+    <!-- Bootstrap core JavaScript -->
+
+    <script src="~/node_modules/jquery/dist/jquery.min.js"></script>
+
+    <script src="~/node_modules/jquery/dist/bootstrap.bundle.min.js"></script>
+</body>
+</html>
